@@ -11,6 +11,16 @@ h1{
   overflow-wrap: break-word;
 }
 
+h2{
+  color: aliceblue;
+  text-align: center;
+}
+
+p{
+  color: aliceblue;
+  text-align: center;
+}
+
 /*Footer*/
 #myBtn {
   display: none; /* Hidden by default */
