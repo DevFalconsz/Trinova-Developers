@@ -21,6 +21,10 @@ p{
   text-align: center;
 }
 
+li{
+  color: aliceblue;
+}
+
 /*Footer*/
 #myBtn {
   display: none; /* Hidden by default */
