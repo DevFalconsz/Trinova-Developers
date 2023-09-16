@@ -37,10 +37,10 @@ document.getElementById("value-3").addEventListener("click", ir_para_skill);
 //function ir_para_projetos() {
 //    window.location.href = "../Projects/";
 //}
-document.getElementById("value-4").addEventListener("click", ir_para_projetos);
+//document.getElementById("value-4").addEventListener("click", ir_para_projetos);
 
 function ir_para_curriculum() {
-    window.location.href = "../Curriculum/";
+    window.location.href = "../Curriculum";
 }
 document.getElementById("value-5").addEventListener("click", ir_para_curriculum);
 
