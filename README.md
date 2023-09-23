@@ -1,2 +1,2 @@
 # Trinova-Developers
-An project for course in Practice of Programmation using HTML5, CSS3, PHP and Javascript.
+Trinova developers é um site feito com o objetivo de ser um trabalho escolar pelos alunos da faculdade UEG de trindade. ele foi feito pelos alunos Patrick Vagetti, Ítalo Ryde e Danilo Malaspina. A ideia do site é ser um portifolio para os três alunos, mostrando suas habilidades e pontos fortes dentro da area da programação, além de apresentar um curriculo base de cada um, e meios de contato, caso o usuario do site queira contratar algum deles, com cada uma dessas iformações tendo uma parte propria separada dentro do site, com a Home Page do site dividindo e facilitando a localização de cada uma dessas informações pertinentes para um possivel contrator.
