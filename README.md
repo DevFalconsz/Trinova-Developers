@@ -18,21 +18,16 @@ Conheça os cérebros por trás de Trinova:
 
 ## O que oferecemos
 
-Nosso site está repleto de recursos valiosos:
+Nosso site trás os seguintes tipos de informações sobre nós:
 
-- Posts informativos no blog
-- Desafios de codificação emocionantes
-- Projetos open source
-- Tutoriais e guias
-- E muito mais!
+- Habilidades no meio da programação
+- Nossos curriculos
+- Formas de contato
+- FAQ ou perguntas frequentes que recebemos
+- Nossos outros projetos concluidos
 
 ## Envolva-se
-Acreditamos no poder da comunidade de programação. Junte-se a nós em nossas aventuras de codificação:
 
-- **Contribute**: Sinta-se à vontade para contribuir com nossos projetos de código aberto.
 - **Fale Conosco**: Tem alguma dúvida ou sugestão? Não hesite em entrar em contato.
 - **Siga-nos**: Mantenha-se atualizado com nossos últimos artigos e projetos no GitHub.
 
-## Fique atento!
-
-Estamos constantemente atualizando nosso site com conteúdo novo, então certifique-se de nos marcar e voltar com frequência. Feliz codificação!
