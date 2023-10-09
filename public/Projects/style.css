@@ -73,6 +73,10 @@ main.card-container {
 .card {
     width: calc(30% - 20px); /* 33.33% para garantir três cartões por linha com margens */
     background-color: #fff;
+    background-image: url(midia/python.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 170px;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
@@ -95,6 +99,170 @@ main.card-container {
 }
 
 .card span {
+    display: block;
+    color: #888;
+}
+
+.card2 {
+    width: calc(30% - 20px); /* 33.33% para garantir três cartões por linha com margens */
+    background-color: #fff;
+    background-image: url(midia/php.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: font-size 1s ease;
+}
+
+.card2:hover{
+    font-size: 20px;
+}
+
+.card2 h2 {
+    color: #333;
+}
+
+.card2 p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card2 span {
+    display: block;
+    color: #888;
+}
+
+.card3 {
+    width: calc(30% - 20px); /* 33.33% para garantir três cartões por linha com margens */
+    background-color: #fff;
+    background-image: url(midia/csharp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140px 150px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: font-size 1s ease;
+}
+
+.card3:hover{
+    font-size: 20px;
+}
+
+.card3 h2 {
+    color: #333;
+}
+
+.card3 p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card3 span {
+    display: block;
+    color: #888;
+}
+
+.card4 {
+    width: calc(30% - 20px); /* 33.33% para garantir três cartões por linha com margens */
+    background-color: #fff;
+    background-image: url(midia/js.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 175px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: font-size 1s ease;
+}
+
+.card4:hover{
+    font-size: 20px;
+}
+
+.card4 h2 {
+    color: #333;
+}
+
+.card4 p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card4 span {
+    display: block;
+    color: #888;
+}
+
+.card5 {
+    width: calc(30% - 20px); /* 33.33% para garantir três cartões por linha com margens */
+    background-color: #fff;
+    background-image: url(midia/html.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 175px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: font-size 1s ease;
+}
+
+.card5:hover{
+    font-size: 20px;
+}
+
+.card5 h2 {
+    color: #333;
+}
+
+.card5 p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card5 span {
+    display: block;
+    color: #888;
+}
+
+.card6 {
+    width: calc(30% - 20px); /* 33.33% para garantir três cartões por linha com margens */
+    background-color: #fff;
+    background-image: url(midia/css.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: font-size 1s ease;
+}
+
+.card6:hover{
+    font-size: 20px;
+}
+
+.card6 h2 {
+    color: #333;
+}
+
+.card6 p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card6 span {
     display: block;
     color: #888;
 }
