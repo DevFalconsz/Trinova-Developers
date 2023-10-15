@@ -19,7 +19,7 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     transition: background-color 0.5s ease;
 }
 
@@ -61,6 +61,21 @@ nav a:hover {
     color: #ff0000;
     /*padding: 10px 20px;*/
     font-size: 18px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #61dafb;
+}
+
+p {
+    line-height: 1.6;
 }
 
 footer {

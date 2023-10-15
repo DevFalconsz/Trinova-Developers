@@ -19,7 +19,7 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     transition: background-color 0.5s ease;
 }
 
@@ -61,6 +61,38 @@ nav a:hover {
     color: #ff0000;
     /*padding: 10px 20px;*/
     font-size: 18px;
+}
+
+/* Remover sublinhado de todos os links */
+a {
+    text-decoration: none;
+    color: #61dafb; /* Tonalidade de cor para links */
+}
+
+/* Estilizar área de contatos com uma tonalidade de cor diferente */
+.area-contatos {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Estilizar links na área de contatos com uma tonalidade de cor diferente */
+.area-contatos a {
+    color: #ffa500; /* Outra tonalidade de cor para links na área de contatos */
+}
+
+/* Estilizar as informações de contato para cada desenvolvedor */
+.contato {
+    margin-bottom: 20px;
+}
+
+/* Adicionar algum espaçamento extra para os itens de lista dentro de contatos */
+.contato ul {
+    padding-left: 20px;
 }
 
 footer {
