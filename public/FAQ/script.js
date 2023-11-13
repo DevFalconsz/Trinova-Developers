@@ -50,8 +50,8 @@ function carregarComentarios() {
             data.forEach(comentario => {
                 const comentarioHTML = `
                     <p class="coment_bloco">
-                        ${comentario.nome} <br>
-                        ${comentario.comentario}
+                        Usuário: ${comentario.nome} <br>
+                        Comentário: ${comentario.comentario}
                     </p><br>
                 `;
                 comentariosContainer.innerHTML += comentarioHTML;
