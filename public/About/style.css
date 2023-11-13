@@ -38,6 +38,7 @@ header h1 {
 header p {
     font-size: 16px;
     margin-bottom: 10px;
+    /*margin-top: 10px;*/
 }
 
 nav ul {
@@ -94,7 +95,6 @@ nav a:hover {
     position: absolute;
     inset: 0;
     left: -4px;
-    top: -1px;
     margin: auto;
     width: 92px;
     height: 50px;
@@ -138,7 +138,7 @@ h2 {
     color: #61dafb;
 }
 
-p {
+section p {
     line-height: 1.6;
 }
 
