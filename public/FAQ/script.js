@@ -18,7 +18,6 @@ formComentario.addEventListener('submit', function (event) {
             },
             body: JSON.stringify({ nome: nomeUsuario, comentario: comentario }),
         })
-            //.then(response => response.json())
             .then(data => {
                 console.log('Sucesso:', data);
                 carregarComentarios();
