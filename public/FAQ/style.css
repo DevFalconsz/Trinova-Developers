@@ -166,7 +166,7 @@ main {
     padding-bottom: 10px;
 }
 
-#inserir_coment {
+.inserir_coment {
     resize: none;
     height: 150px;
     width: 500px;

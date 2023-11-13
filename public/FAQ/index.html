@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../icon.ico" type="image/x-icon">
     <title>Trinova Developers</title>
+    <script src="script.js" type="module"></script>
 </head>
 <body>
 
@@ -29,15 +30,16 @@
         <h2>Deixe suas dúvidas aqui!</h2>
         <p>Insira seu nome ou anonimato no campo abaixo para deixar suas dúvidas ao nosso dispor.</p>
         <p>Aproveite para também observar as perguntas de outras pessoas também interessadas!</p>
-        <form action="" method="get">
+        <form id="formComentario" action="" method="post">
             <div class="form-control">
-                <input type="value" required="">
+                <input id="inputNome" type="text" required>
                 <label>
                     <span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span><span style="transition-delay:200ms">n</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
                 </label>
             </div><br>
-            <textarea name="comentario_user" id="inserir_coment" cols="30" rows="10" placeholder="Comente aqui!"></textarea><br>
+            <textarea name="comentario_user" class="inserir_coment" id="inputComentario" cols="30" rows="10" placeholder="Comente aqui!" required></textarea><br>
             <button type="submit" class="btn">comentar</button>
+        </form>        
     </main>
     <br>
     <main>
