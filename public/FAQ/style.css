@@ -1,0 +1,270 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111;
+    color: #fff;
+    transition: background-color 0.5s ease;
+
+    width: 100%;
+    height: 100%;
+    --color: rgba(114, 114, 114, 0.3);
+    background-color: #191a1a;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 55px 55px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* Adiciona margem no topo */
+    margin-bottom: 20px;
+    /* Adiciona margem na parte inferior */
+}
+
+header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    /*margin-bottom: 10px;*/
+    transition: background-color 0.5s ease;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-color: aqua;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    /*border: 1px solid #fff;
+    border-radius: 50px;*/
+    padding: 5px 10px;
+}
+
+/*nav a {
+    text-decoration: none;
+    color: #fff;
+    /*transition: padding 1s ease;*/
+/*transition: font-size 0.5s ease;
+}
+
+nav a:hover {
+    color: #ff0000;
+    /*padding: 10px 20px;*/
+/*font-size: 18px;
+}*/
+
+.button {
+    position: relative;
+    text-decoration: none;
+    width: 60px;
+    height: 20px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -4px;
+    top: -1px;
+    margin: auto;
+    width: 92px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+}
+
+.button:hover::after {
+    filter: blur(30px);
+}
+
+.button:hover::before {
+    transform: rotate(-180deg);
+}
+
+.button:active::before {
+    scale: 0.7;
+}
+
+footer {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    /* Adiciona margem na parte superior */
+    transition: background-color 0.5s ease;
+}
+
+/* Adiciona uma media query para dispositivos com largura menor que 768 pixels (tamanho típico de um tablet ou celular) */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        /* Alinha os botões um abaixo do outro */
+        align-items: center;
+        /* Centraliza os botões */
+    }
+
+    nav ul li {
+        margin-right: 0;
+        /* Remove a margem à direita para que os botões ocupem toda a largura */
+        margin-bottom: 10px;
+        /* Adiciona uma margem inferior entre os botões */
+    }
+}
+
+/*formulário*/
+main {
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    width: 750px;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.inserir_coment {
+    resize: none;
+    height: 150px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgba(65, 65, 65, 0.959);
+    color: #fff;
+}
+
+.coment_bloco {
+    text-align: justify;
+    background-color: #3a3a3a;
+    width: 650px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+
+/*Botone temoorário*/
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: black;
+}
+
+button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/*Inserir nome temporário*/
+.form-control {
+    position: relative;
+    margin: auto;
+    width: 190px;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #272727 solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+    outline: 0;
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    color: #272727;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+    color: rgb(255, 255, 255);
+    transform: translateY(-30px);
+}
